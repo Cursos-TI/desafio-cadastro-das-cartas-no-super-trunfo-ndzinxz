@@ -30,7 +30,7 @@ int main() {
 
     printf("\n");
 
-    printf("Codigo: %s\nCidade: %s\nPopulacao: %d\nArea: %.0f km²\nPIB: %.0f bilhoes\nPontos turisticos: %d\n", codigo, cidade, populacao, area, pib, pontos_turisticos);
+    printf("Codigo: %s\nCidade: %s\nPopulacao: %d\nArea: %.3f km²\nPIB: %.0f bilhoes\nPontos turisticos: %d\n", codigo, cidade, populacao, area, pib, pontos_turisticos);
 
     printf("\n");
 
