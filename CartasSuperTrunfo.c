@@ -3,7 +3,7 @@
 int main() {
     
     char codigo[4];
-    char cidade[30];
+    char cidade[20];
     int populacao;
     float area; 
     float pib;
@@ -17,10 +17,10 @@ int main() {
     scanf("%s", &cidade);
 
     printf("Digite a Populaçao: "); // População
-    scanf("%d", &populacao);
+    scanf(" %d", &populacao);
 
     printf("Digite a Area: "); // Área da cidade
-    scanf("%f", &area);
+    scanf(" %f", &area);
 
     printf("Digite o PIB (em bilhões): "); // PIB da cidade
     scanf("%f", &pib);
@@ -30,8 +30,9 @@ int main() {
 
     printf("\n");
 
-    printf("Codigo: %s\nCidade: %s\nPopulacao: %d\nArea: %.2f km²\nPIB: %.3f bilhoes\nPontos turisticos: %d\n", codigo, cidade, populacao, area, pib, pontos_turisticos);
+    printf("Codigo: %s\nCidade: %s\nPopulacao: %d\nArea: %.0f km²\nPIB: %.0f bilhoes\nPontos turisticos: %d\n", codigo, cidade, populacao, area, pib, pontos_turisticos);
 
+    printf("\n");
 
     return 0;
 }
