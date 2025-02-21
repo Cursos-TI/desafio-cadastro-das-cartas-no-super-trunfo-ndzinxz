@@ -47,7 +47,7 @@ int main() {
     printf("\n--- COMPARACAO DAS CARTAS ---\n");
 
     // Comparação das propriedades
-    printf("Densidade Populacional");
+    printf("Densidade Populacional - ");
     if (densidade_1 < densidade_2) {
         printf("Vencedora: %s (Menor densidade)\n", cidade_1);
     } else if (densidade_1 > densidade_2) {
@@ -57,7 +57,7 @@ int main() {
     }
 
 
-    printf("População");
+    printf("População - ");
     if (populacao_1 > populacao_2) {
         printf("Vencedora: %s\n", cidade_1);
     } else if (populacao_1 < populacao_2) {
@@ -67,7 +67,7 @@ int main() {
     }
 
 
-    printf("PIB");
+    printf("PIB - ");
     if (pib_1 > pib_2) {
         printf("Vencedora: %s\n", cidade_1);
     } else if (pib_1 < pib_2) {
@@ -77,7 +77,7 @@ int main() {
     }
 
 
-    printf("PIB per Capita");
+    printf("PIB per Capita - ");
     if (pib_percapita_1 > pib_percapita_2) {
         printf("Vencedora: %s\n", cidade_1);
     } else if (pib_percapita_1 < pib_percapita_2) {
@@ -87,7 +87,7 @@ int main() {
     }
 
 
-    printf("Pontos Turisticos");
+    printf("Pontos Turisticos - ");
     if (pontos_turisticos_1 > pontos_turisticos_2) {
         printf("Vencedora: %s\n", cidade_1);
     } else if (pontos_turisticos_1 < pontos_turisticos_2) {
